@@ -1,0 +1,15 @@
+编译：
+直接运行make，会编译出stencil_cpu, stencil_cpu_gpu, stencil_cpu_queue, stencil_gpu, stencil_knl一共5个可执行文件
+
+运行：
+每个程序都有4个输入参数，分别是Stencil x, y, z方向的维度，以及步数
+
+运行示例：
+./stencil_cpu 100 100 100 100
+./stencil_cpu_gpu 100 100 100 100
+./stencil_cpu_queue 100 100 100 100
+./stencil_gpu 100 100 100 100
+./stencil_knl 100 100 100 100
+
+
+如果编译或运行出现问题可随时联系:18317139357

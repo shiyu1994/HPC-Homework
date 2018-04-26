@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = mpiicpc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O3 -qopenmp -mkl$/;"	m
+CSR	func.h	/^} CSR;$/;"	t	typeref:struct:__anon1
+RAND	main.cpp	51;"	d	file:
+TIME	main.cpp	10;"	d	file:
+_FUNC_H_	func.h	2;"	d
+check_sparse_ATA	check_func.cpp	/^int check_sparse_ATA(CSR B, CSR A)$/;"	f
+check_sparse_ATA_kernel	check_func.cpp	/^int check_sparse_ATA_kernel(CSR *B, CSR *A)$/;"	f
+check_sparse_AT_plus_A	check_func.cpp	/^int check_sparse_AT_plus_A(CSR B, CSR A)$/;"	f
+check_sparse_AT_plus_A_kernel	check_func.cpp	/^int check_sparse_AT_plus_A_kernel(CSR *B, CSR *A)$/;"	f
+col_idx	func.h	/^    int *col_idx;$/;"	m	struct:__anon1
+cols	func.h	/^    int rows, cols;$/;"	m	struct:__anon1
+destabilization	main.cpp	/^int destabilization(double *val, int n)$/;"	f
+destroy_CSR	main.cpp	/^int destroy_CSR(CSR *A)$/;"	f
+load_csr_distribute	main.cpp	/^int load_csr_distribute(CSR *A, char *filename)$/;"	f
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+nnz	func.h	/^    int nnz; \/\/ The total number of non-zeros$/;"	m	struct:__anon1
+nnz_local	func.h	/^    int nnz_local; \/\/The local number of non-zeros$/;"	m	struct:__anon1
+nprocs	func.h	/^    int nprocs; \/\/The number of processes$/;"	m	struct:__anon1
+rank	func.h	/^    int rank; \/\/My rank ID$/;"	m	struct:__anon1
+row_ptr	func.h	/^    int *row_ptr;$/;"	m	struct:__anon1
+rows	func.h	/^    int rows, cols;$/;"	m	struct:__anon1
+rows_local	func.h	/^    int rows_local; \/\/ The local number of rows$/;"	m	struct:__anon1
+rows_offset	func.h	/^    int rows_offset; \/\/ The offset of rows$/;"	m	struct:__anon1
+sparse_ATA_type0	func.cpp	/^int sparse_ATA_type0(CSR *B, CSR *A, bool first_time)$/;"	f
+sparse_ATA_type1	func.cpp	/^int sparse_ATA_type1(CSR *B, CSR *A, bool first_time)$/;"	f
+sparse_AT_plus_A_type0	func.cpp	/^int sparse_AT_plus_A_type0(CSR *B, CSR *A, bool first_time)$/;"	f
+sparse_AT_plus_A_type1	func.cpp	/^int sparse_AT_plus_A_type1(CSR *B, CSR *A, bool first_time)$/;"	f
+value	func.h	/^    double *value;$/;"	m	struct:__anon1

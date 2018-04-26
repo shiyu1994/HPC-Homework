@@ -1,0 +1,10 @@
+./sparse /apps/hw3/matrix/atmosmodj.csr
+./sparse /apps/hw3/matrix/atmosmodl.csr
+./sparse /apps/hw3/matrix/cage13.csr
+./sparse /apps/hw3/matrix/circuit5M_dc.csr
+./sparse /apps/hw3/matrix/Freescale1.csr
+./sparse /apps/hw3/matrix/ML_Geer.csr
+./sparse /apps/hw3/matrix/poisson3Db.csr
+./sparse /apps/hw3/matrix/stomach.csr
+./sparse /apps/hw3/matrix/torso3.csr
+./sparse /apps/hw3/matrix/Transport.csr
